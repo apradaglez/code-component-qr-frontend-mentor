@@ -23,11 +23,6 @@ body {
     height: 100vh;
 }
 
-
-.attribution { font-size: 11px; text-align  : center; }
-   
-.attribution a { color: hsl(228, 45%, 44%); }
-
 .container-qr-code {
     width: 320px;
     height: 499px;
@@ -72,3 +67,8 @@ body {
     margin-inline: 5%;
     font-weight: var(--fw-200);
 }
+
+
+.attribution { font-size: 11px; text-align  : center; }
+   
+.attribution a { color: hsl(228, 45%, 44%); }
