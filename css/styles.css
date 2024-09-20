@@ -3,6 +3,7 @@
     --clr-slate300: hsl(212, 45%, 89%);
     --clr-slate500: hsl(216, 15%, 48%);
     --clr-slate900: hsl(218, 44%, 22%);
+    --clr-attribution: hsl(228, 45%, 44%);
 
     --fw-200: 200;
     --fw-400: 400;
@@ -71,4 +72,4 @@ body {
 
 .attribution { font-size: 11px; text-align  : center; }
    
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: var(--clr-attribution); }
