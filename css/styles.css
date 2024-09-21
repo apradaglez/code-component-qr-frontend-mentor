@@ -61,7 +61,6 @@ body {
 
 .container-qr-code__text h1 {
     font-weight: var(--fw-700);
-    text-shadow: 0px 5px 4px var(--clr-slate500);
 }
 .container-qr-code__text p {
     color: var(--clr-slate500);
