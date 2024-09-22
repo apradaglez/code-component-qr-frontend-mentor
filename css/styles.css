@@ -11,57 +11,57 @@
 
 }
 
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/Outfit-VariableFont_wght.ttf);
+    src: url(../fonts/Outfit-VariableFont_wght.woff2);
+  }
 
 body {
     font-size: 15px;
-    font-family: "Outfit", sans-serif;
+    font-family: 'Outfit', sans-serif;
     background-color: var(--clr-slate300);
     height: 100vh;
 }
 
 .container-qr-code {
-    width: 320px;
-    height: 499px;
+    max-width: 21.33rem;
+    /*320pxonbaseto15px*/
+    min-height: 32.26666rem;
+    /*499pxonbaseto15px*/
     margin-inline: auto;
     padding: 1rem 1rem 2.5rem 1rem;
     margin: 10% auto;
-
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-
+    border-radius: 1.33rem;
+    -webkit-border-radius: 1.33rem;
+    -moz-border-radius: 1.33rem;
+    -ms-border-radius: 1.33rem;
+    -o-border-radius: 1.33rem;
     background-color: var(--clr-white);
 }
 
 .container-qr-code__img {
     display: block;
-    width: 288px;
-    height: 288px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    margin-bottom: 24px;
+    min-width: 19.2rem;
+    min-height: 19.2rem;
+    border-radius: .66666rem;
+    -webkit-border-radius: .66666rem;
+    -moz-border-radius: .66666rem;
+    -ms-border-radius: .66666rem;
+    -o-border-radius: .66666rem;
+    margin-bottom: 1.6rem;
 }
 
 .container-qr-code__text {
-    width: 288px;
-    height: 131px;
+    min-width: 19.2rem;
+    min-height: .8666rem;
     text-align: center;
 }
-
 
 .container-qr-code__text h1 {
     font-weight: var(--fw-700);
 }
+
 .container-qr-code__text p {
     color: var(--clr-slate500);
     margin-inline: 5%;
@@ -69,6 +69,6 @@ body {
 }
 
 
-.attribution { font-size: 11px; text-align  : center; }
+.attribution { font-size: .73333rem; text-align  : center; }
    
 .attribution a { color: var(--clr-attribution); }
